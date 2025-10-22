@@ -49,7 +49,7 @@ WATSONX_APIKEY=your_api_key_here
 python llm_model.py
 ```
 
-The application will be available at `http://127.0.0.1:7860` (the server name and pỏt can be changed)
+The application will be available at `http://127.0.0.1:7860` (the server name and port can be changed)
 
 ## Usage
 
