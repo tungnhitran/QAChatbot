@@ -1,13 +1,18 @@
 # Simple chatbot Q&A by Gradio, 
 
-A basic application of Gradio that integrates with IBM Watson AI to create a functional chatbot. This project uses LLM model, Granite 3-2b-instruct.
+A basic application of Gradio that integrates with IBM Watson AI to create a functional chatbot. There are 2 version, a simple Q&A chatbot in `llm_model.py` and RAG chatbot allowing upload a pdf file in `qabot.py`.
 
-![Demo GIF](demo.gif)
+Simple Q&A Chatbot
+![Demo GIF](demo1.gif)
+
+RAG Chatbot
+![Demo GIF](demo2.gif)
 
 ## Features
 
 - Integration with IBM Watson AI (watsonx)
 - Support for LLM models (Granite)
+- Deploy LLM model for embedding (Multilingual E5 Large)
 - Built with Gradio
 
 ## Prerequisites
@@ -47,6 +52,11 @@ WATSONX_APIKEY=your_api_key_here
 
 ```bash
 python llm_model.py
+```
+or
+
+```bash
+python qabot.py
 ```
 
 The application will be available at `http://127.0.0.1:7860` (the server name and port can be changed)
