@@ -1,6 +1,6 @@
 # Simple chatbot Q&A by Gradio, 
 
-A basic application of Gradio that integrates with IBM Watson AI to create a functional chatbot. There are 2 version, a simple Q&A chatbot in `llm_model.py` and RAG chatbot allowing upload a pdf file in `qabot.py`.
+A basic application of Gradio that integrates with IBM Watson AI to create a functional chatbot. There are 2 version, a simple Q&A chatbot in `llm_model.py` and Q&A chatbot allowing upload a pdf file in `qabot.py`.
 
 Simple Q&A Chatbot
 ![Demo GIF](demo1.gif)
